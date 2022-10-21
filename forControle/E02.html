@@ -12,12 +12,24 @@
     */
 
     //ENTRADA
+    const quantidadeVezes = Number(prompt("Informe a quantidade de vezes que você abasteceu"))
+    const distanciaPercorrida = Number(prompt("Informe a quantidade de quilômetros percorrida"))
 
 
     //PROCESSAMENTO
+    for (let contador = 0; contador < quantidadeVezes; contador++) {
+        let custo = Number(prompt(`Informe o custo da viagem ${contador+ 1 }`))
+        custoTotal = contador + contador
+        
+    }
+    const custoQuilometro = distanciaPercorrida/custo
+
 
 
     //SAÍDA
+    document.write(`usto de cada quilômetro percorrido: ${custoQuilometro}`)
+    document.write(`custo total dos abastecimentos efetuadas : ${custoTotal}`)
+    document.write(`A quilometragem total percorrida : ${distanciaPercorrida}`)
 
 
 </script>

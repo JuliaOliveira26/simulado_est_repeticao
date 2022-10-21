@@ -7,12 +7,31 @@
     */
 
     //ENTRADA
+        const quantidadeAlunos = Number(prompt("Informe a quantidaade de alunos que possui"))
 
+        let nomeMasculino = [];
+        let nomeFeminio = [];
 
     //PROCESSAMENTO
+    for (let contador = 0; contador < quantidadeAlunos ; contador++) {
+        let nomeAlunos = (prompt(`Nome Aluno ${contador + 1}`))
+        let generoAlunos = (prompt("Informe o genero do aluno"))
+    }
+    if(generoAlunos === "M"){
+        nomeAlunos.push(contador)
+    }
+    else if(generoAlunos === "F"){
+        nomeAlunos.push(contador)
+    }
+    else{
+        alert("Lista Inválida")
+    }
 
 
     //SAÍDA
+    document.write(`Nomes Alunos Masculinos : ${nomeMasculino.sort().join(", ")}`)
+    document.write(`Nomes Alunos Femininos : ${nomeFeminio.sort().join(", ")}`)
+
 
     
 </script>
